@@ -1,0 +1,38 @@
+body{
+    background: #3b0000;
+    color: white;
+}
+.contener{
+    margin:50px auto;
+    box-shadow: 0 0 2px black;
+    border-radius: 2px;
+    width: 200px;
+}
+.head{
+    /* margin: 0; */
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+    background: #430606;
+    color: #27beff;
+}
+img{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 50px;
+}
+.body{
+    height: 220px;
+    margin: 5px;
+    overflow: auto;
+}
+#message{
+    width: 100%;
+}
+input[type="submit"]{
+    appearance: none;
+    background: transparent;
+    border: none;
+    position: fixed;
+}
